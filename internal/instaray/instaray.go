@@ -38,7 +38,7 @@ func New(logger *logging.Logger, config *Config) *Instaray {
 		threads:   config.Telegram.Threads,
 		logger:    logger,
 		embeds: []*embed.Embed{
-			embed.New("instagram", "vxinstagram.com"),
+			embed.New("instagram", "mdbinstagram.com"),
 			embed.New("twitter", "fxtwitter.com"),
 			embed.New("x", "fixupx.com"),
 			embed.New("tiktok", "vxtiktok.com"),
